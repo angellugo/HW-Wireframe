@@ -14,33 +14,38 @@ body{
 
 header, nav, section, aside, footer{
     background: #ebebeb;
-    padding: 15px;
-    margin: 10px 100px;
+    padding: 25px;
+    margin: 10px;
 }
 section{
-    height: 200px;
-
+    height: 250px;
+    width: 495px;
+    float: left;
 }
 
 article{
+    height: 180px;
+    width: 445px;    
     color: #ebebeb;
     background: #777;
 }
 
-h1, h2, h3, p{
+h1, p{
     color: #777;
+    width: 420px;
     background: #ebebeb;
-}
-
-section{
-    width: 395px;
+    padding: 15px;
+    margin: 10px;
 }
 
 aside{
-    width: 300px;
-    height: 200px;
+    height: 250px;
+    width: 425px;
+    float: left;
 }
 
 footer{
+    width: 940px;
+    float: left;
 
 }
